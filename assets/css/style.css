@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Rubik&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +51,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
 }
 
 .active {
@@ -114,6 +115,7 @@ h1, h2 {
 
 /* house basics */
 
+
 #house-basics {
     height: 600px;
 }
@@ -136,9 +138,9 @@ h1, h2 {
 }
 
 hr {
-    border-top: 5px solid black;
+    border-top: 5px solid #3a3a3a;
     width: 100%;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .left-about-heading {
@@ -165,7 +167,7 @@ hr {
     text-align: right;
 }
 
-#welcome {
+#basics {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -178,10 +180,48 @@ hr {
     margin: 0 auto;
 }
 
-#elements-cover-bg {
-    background: url('../basics\ centre.jpeg') no-repeat center center;
+#circle-cover-bg {
+    background: url('../basics\centre.jpeg') no-repeat center center;
     height: 100%;
+    border-radius: 50%;
 }
 
+/* external links to advice */
 
 
+#links div {
+    color: white;
+    background-color: rgba(52, 120, 197, 0.7);
+    width: 33%;
+    height: 200x;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+#links h2 {
+    color: white;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
