@@ -180,10 +180,11 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
-    background: url('../basics\centre.jpeg') no-repeat center center;
+#elements-cover-bg {
+    background: url('../basics\ centre.jpeg') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    width: 100%
+   
 }
 
 /* external links to advice */
@@ -224,4 +225,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* gallery*/
+
+#photos {
+    clear:both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
