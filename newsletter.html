@@ -31,19 +31,37 @@
         </nav>
     </header>
 
-    <section id="form">
 
-        <form>
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
-            <label for="sname">Surname:</label>
-            <input type="text" name="sname" id="sname" required>
-            <label for="email">Email Address:</label>
-            <input type="email" name="email" id="email" required>
-          </form>
-       
+    
+
+
+    <section id="form">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Sign Up to Our Newsletter</h2>
+            <br>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <br>
+            <h3>Where is Your House located?</h3>
+            <label for="ireland">Ireland</label>
+            <input type="radio" id="ireland" name="house-location" value="ireland" required>
+            <label for="england">England</label>
+            <input type="radio" id="england" name="house-location" value="england" required>
+            <label for="scotland">Scotland</label>
+            <input type="radio" id="scotland" name="house-location" value="scotland" required>
+            <br>
+            <br>
+            <input class="join-button" type="submit" value="Sign Up">
+        </form>
  
     </section>
+    
     
     <footer>
         <ul class="social-networks">
