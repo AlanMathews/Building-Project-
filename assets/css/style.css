@@ -184,7 +184,7 @@ hr {
     background: url('../basics\ centre.jpeg') no-repeat center center;
     height: 100%;
     width: 100%
-   
+
 }
 
 /* external links to advice */
@@ -193,9 +193,9 @@ hr {
 #links div {
     color: white;
     background-color: rgba(52, 120, 197, 0.7);
-    width: 33%;
-    height: 200x;
-    float: left;
+    width: 50%;
+    height: 200px;
+    float: centre;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 5px solid white;
@@ -328,14 +328,21 @@ footer {
 
 
 /* Form position and style*/
-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
+form 
+{
+    color: white;
+    background-color: rgba(52, 120, 197, 0.7);
+    width: 50%;
+    height: 200x;
+    float: centre;
+    padding-top: 30px;
+    text-align: center;
+    border: 5px solid white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top:100px;
+
+    
 }
 
 
